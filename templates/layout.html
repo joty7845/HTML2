@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIC Student Progress</title>
+    <!-- Link to external stylesheet for consistent styling across pages -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <!-- Main site title and navigation menu -->
+        <h1>Welcome to GIC Student Progress Portal</h1>
+        <nav>
+            <a href="{{ url_for('home') }}">Home</a>
+
+            <a href="{{ url_for('information') }}">Information</a>
+            <a href="{{ url_for('data_collection') }}">Data Collection</a>
+        </nav>
+    </header>
+    <main>
+        <!-- Placeholder for page-specific content -->
+        {% block content %}{% endblock %}
+
+
+    </main>
+    <footer>
+        <!-- Footer with copyright information -->
+        <p>&copy; 2024 GIC. All rights reserved.</p>
+    </footer>
+</body>
+</html>

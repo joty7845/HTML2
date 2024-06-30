@@ -1,0 +1,100 @@
+/* Basic styles applied to the body of the document for consistent font and background */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles to ensure consistent appearance across all pages */
+header {
+    background-color: #0044cc;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Navigation links style for consistency */
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+/* Main content padding for consistent spacing */
+main {
+    padding: 2rem;
+}
+
+/* Footer styles for uniform appearance */
+footer {
+    background-color: #0044cc;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Headings styles for consistent color scheme */
+h1, h2 {
+    color: #0044cc;
+}
+
+/* Form container for flexbox layout */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label styling for readability and spacing */
+form label {
+    margin-top: 1rem;
+}
+
+/* Input fields styling for uniform appearance */
+form input, form select, form textarea {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+/* Button styling for clear visual indication and interactivity */
+form button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #0044cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #003399;
+}
+
+/* Special style for a unique section on the welcome page */
+#welcome-intro {
+    background-color: #e6f7ff;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+/* Unique button style for a specific action */
+.special-action-button {
+    background-color: #28a745;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.special-action-button:hover {
+    background-color: #218838;
+}

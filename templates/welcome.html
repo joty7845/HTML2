@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<section class="welcome">
+    <a href="{{ url_for('home') }}">Home</a>
+    <!-- Welcome message and site overview -->
+    <h2>Welcome to the GIC Student Progress Portal</h2>
+    <p>This website aims to gather valuable data on student progress to help improve academic experiences and outcomes at GIC.</p>
+    <p>On this site, you can:</p>
+    <ul>
+        <li>Learn more about why we collect data on student progress.</li>
+        <li>Contribute by filling out our student progress questionnaire.</li>
+    </ul>
+</section>
+{% endblock %}
